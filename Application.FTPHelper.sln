@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8DDE140B-00CC-45BB-A0A8-AB5618E4BEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.FTPHelper", "Src\AspNetCore.FTPHelper\AspNetCore.FTPHelper.csproj", "{EC59F500-DCE3-4E4A-8C94-4CAE643E1FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.FTPHelper", "Application.FTPHelper\Application.FTPHelper.csproj", "{CD407B9D-8A8B-422B-BCAE-E926AE0907E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC59F500-DCE3-4E4A-8C94-4CAE643E1FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC59F500-DCE3-4E4A-8C94-4CAE643E1FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC59F500-DCE3-4E4A-8C94-4CAE643E1FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC59F500-DCE3-4E4A-8C94-4CAE643E1FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD407B9D-8A8B-422B-BCAE-E926AE0907E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD407B9D-8A8B-422B-BCAE-E926AE0907E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD407B9D-8A8B-422B-BCAE-E926AE0907E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD407B9D-8A8B-422B-BCAE-E926AE0907E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC59F500-DCE3-4E4A-8C94-4CAE643E1FBE} = {8DDE140B-00CC-45BB-A0A8-AB5618E4BEF6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C42EA2-A36D-48A5-B1DF-AC056E943F84}
+	EndGlobalSection
+EndGlobal
